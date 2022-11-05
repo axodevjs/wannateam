@@ -1,0 +1,56 @@
+.firstBlock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+    border-radius: 35px;
+}
+
+.leftInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 115px;
+    width: 40%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    padding: 35px 80px 35px 0;
+}
+
+.rightImage {
+    height: 100%;
+    width: auto;
+}
+
+.title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 87px;
+
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 27px;
+
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 63px;
+}
